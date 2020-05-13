@@ -1,8 +1,8 @@
 
-  # 2
+  # 1
 
   ## Description
-  3
+  2
 
   ## Table of Contents
   * [Installation](#installation)
@@ -14,28 +14,27 @@
   
   <a name="installation"></a>
   ## Installation
-  2
+  1
   
   <a name="usage"></a>
   ## Usage
-  3
+  2
 
   <a name="license"></a>
   ## License
-  <img src='https://img.shields.io/badge/License-GNU GPLv3-blue' alt='License Badge'>
+  <img src='https://img.shields.io/badge/License-GNU AGPLv3-blue' alt='License Badge'>
       
   <a name="contributing"></a>
   ## Contributing
-  3
+  2
 
   <a name="tests"></a>
   ## Tests
-  2
+  1
 
   <a name="questions"></a>
   ## Questions?
   Please feel free to reach out to me with any questions.
-  
-  Github Profile: <a href='https://github.com/vertjames'>vertjames</a>
+   
+  Github Profile: <a href='https://github.com/vertjames'>vertjames</a></br>
   <img src='https://avatars1.githubusercontent.com/u/61360856?v=4' height='100px' alt='GitHub Profile Picture'>
- 
