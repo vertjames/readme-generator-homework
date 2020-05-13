@@ -59,7 +59,7 @@ const readMe = `
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
-  * [Contributng](#contributing)
+  * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
   
