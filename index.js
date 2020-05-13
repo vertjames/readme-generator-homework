@@ -115,15 +115,15 @@ fs.appendFile(`README.md`, gitHubProfile, function (err) {
  });
 
 // Add user's email to README
-if (gitHubUser.followers !== null) {
-  fs.appendFile(`README.md`, `  Email: ${gitHubUser.followers}`, function (err) {
+if (gitHubUser.email !== null) {
+  fs.appendFile(`README.md`, `  Email: ${gitHubUser.email}`, function (err) {
     if (err) { 
       console.log(err)
      };
     console.log(`Email retrieved from GitHub.`);
   })
 } else {
-  fs.appendFile(`README.md`, `_`, function (err) {
+  fs.appendFile(`README.md`, `  _ _ _`, function (err) {
     if (err) { 
       console.log(err)
      };
