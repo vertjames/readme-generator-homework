@@ -7,7 +7,7 @@ inquirer.prompt([
     {
       type: "input",
       name: "gitHubUsername",
-      message: "What is your Github username?"
+      message: "What is your GitHub username?"
     },  {
       type: "input",
       name: "title",
@@ -101,13 +101,13 @@ const gitHubURL = `https://api.github.com/users/${data.gitHubUsername}`;
 
 axios.get(gitHubURL).then(function ({data}) {
 const gitHubUser = data;
-const githubProfile = `
-  Github Profile: <a href='${gitHubUser.html_url}'>${gitHubUser.login}</a></br></br>
-  <img src='${gitHubUser.avatar_url}' height='100px' alt='GitHub Profile Picture'>
+const gitHubProfile = `
+  GitHub Profile: <a href='${gitHubUser.html_url}'>${gitHubUser.login}</a></br></br>
+  <img src='${gitHubUser.avatar_url}' height='100px' alt='GitHub Profile Picture'></br></br>
 `
 
 // Append the GitHub user profile URL and picture to the README:
-fs.appendFile(`README.md`, githubProfile, function (err) {
+fs.appendFile(`README.md`, gitHubProfile, function (err) {
   if (err) { 
     console.log(err)
    };
@@ -115,15 +115,15 @@ fs.appendFile(`README.md`, githubProfile, function (err) {
  });
 
 // Add user's email to README
-if (gitHubUser.email !== null) {
-  fs.appendFile(`.README.md`, `Email: ${gitHubUser.email}`, function (err) {
+if (gitHubUser.followers !== null) {
+  fs.appendFile(`README.md`, `  Email: ${gitHubUser.followers}`, function (err) {
     if (err) { 
       console.log(err)
      };
     console.log(`Email retrieved from GitHub.`);
   })
 } else {
-  fs.appendFile(`README.md`, ` `, function (err) {
+  fs.appendFile(`README.md`, `_`, function (err) {
     if (err) { 
       console.log(err)
      };

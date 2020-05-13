@@ -2,7 +2,7 @@
   # 1
 
   ## Description
-  2
+  1
 
   ## Table of Contents
   * [Installation](#installation)
@@ -18,7 +18,7 @@
   
   <a name="usage"></a>
   ## Usage
-  2
+  1
 
   <a name="license"></a>
   ## License
@@ -26,7 +26,7 @@
       
   <a name="contributing"></a>
   ## Contributing
-  2
+  1
 
   <a name="tests"></a>
   ## Tests
@@ -36,6 +36,6 @@
   ## Questions?
   Please feel free to reach out to me with any questions.
   
-  Github Profile: <a href='https://github.com/vertjames'>vertjames</a></br></br>
-  <img src='https://avatars1.githubusercontent.com/u/61360856?v=4' height='100px' alt='GitHub Profile Picture'>
- 
+  GitHub Profile: <a href='https://github.com/vertjames'>vertjames</a></br></br>
+  <img src='https://avatars1.githubusercontent.com/u/61360856?v=4' height='100px' alt='GitHub Profile Picture'></br></br>
+  Email: 3
