@@ -2,15 +2,15 @@
   # 1
 
   ## Description
-  2
+  1
 
   ## Table of Contents
-  [Installation](#installation)
-  [Usage](#usage)
-  [License](#license)
-  [Contributng](#contributing)
-  [Tests](#tests)
-  [Questions](#questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributng](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
   
   <a name="installation"></a>
   ## Installation
@@ -18,7 +18,7 @@
   
   <a name="usage"></a>
   ## Usage
-  2
+  1
 
   <a name="license"></a>
   ## License
@@ -26,7 +26,7 @@
       
   <a name="contributing"></a>
   ## Contributing
-  2
+  1
 
   <a name="tests"></a>
   ## Tests
