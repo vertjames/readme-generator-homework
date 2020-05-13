@@ -3,8 +3,7 @@ const inquirer = require("inquirer");
 const axios = require("axios");
 
 // Intake questions/prompts for the user:
-inquirer
-  .prompt([
+inquirer.prompt([
     {
       type: "input",
       name: "gitHubUsername",
@@ -100,8 +99,8 @@ const readMe = `
 // Use the GitHub username that the user input to get the user's GitHub profile URL and profile picture:
 const gitHubURL = `https://api.github.com/users/${data.gitHubUsername}`;
 
-axios.get(gitHubURL).then(function (data) {
-const gitHubUser = data.data;
+axios.get(gitHubURL).then(function ({data}) {
+const gitHubUser = data;
 const githubProfile = `
   Github Profile: <a href='${gitHubUser.html_url}'>${gitHubUser.login}</a></br></br>
   <img src='${gitHubUser.avatar_url}' height='100px' alt='GitHub Profile Picture'>
