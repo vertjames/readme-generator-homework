@@ -103,7 +103,7 @@ const gitHubURL = `https://api.github.com/users/${data.gitHubUsername}`;
 axios.get(gitHubURL).then(function (data) {
 const gitHubUser = data.data;
 const githubProfile = `
-  Github Profile: <a href='${gitHubUser.html_url}'>${gitHubUser.login}</a></br>
+  Github Profile: <a href='${gitHubUser.html_url}'>${gitHubUser.login}</a></br></br>
   <img src='${gitHubUser.avatar_url}' height='100px' alt='GitHub Profile Picture'>
 `
 
