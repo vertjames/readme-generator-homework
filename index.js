@@ -116,7 +116,7 @@ fs.appendFile(`README.md`, githubProfile, function (err) {
  });
 
 // Add user's email to README
-if (gitHubUser.email !== false) {
+if (gitHubUser.email !== null) {
   fs.appendFile(`.README.md`, `Email: ${gitHubUser.email}`, function (err) {
     if (err) { 
       console.log(err)
