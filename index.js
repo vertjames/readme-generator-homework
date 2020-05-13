@@ -57,12 +57,12 @@ const readMe = `
   ${data.description}
 
   ## Table of Contents
-  [Installation](#installation)
-  [Usage](#usage)
-  [License](#license)
-  [Contributng](#contributing)
-  [Tests](#tests)
-  [Questions](#questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributng](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
   
   <a name="installation"></a>
   ## Installation
