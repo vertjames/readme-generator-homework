@@ -121,7 +121,7 @@ if (gitHubUser.email !== null) {
       console.log(err)
      };
     console.log(`Email retrieved from GitHub.`);
-  });
+  })
 } else {
   fs.appendFile(`README.md`, `  _ _ _`, function (err) {
     if (err) { 

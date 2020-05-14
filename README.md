@@ -1,8 +1,8 @@
 
-  # 1
+  # test response
 
   ## Description
-  1
+  test response
 
   ## Table of Contents
   * [Installation](#installation)
@@ -14,11 +14,13 @@
   
   <a name="installation"></a>
   ## Installation
-  1
+  test response
   
   <a name="usage"></a>
   ## Usage
-  1
+  test response
+
+  ![README Generator Demo](README-generator-demo.gif)
 
   <a name="license"></a>
   ## License
@@ -26,11 +28,11 @@
       
   <a name="contributing"></a>
   ## Contributing
-  1
+  test response
 
   <a name="tests"></a>
   ## Tests
-  1
+  test response
 
   <a name="questions"></a>
   ## Questions?
